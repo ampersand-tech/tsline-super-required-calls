@@ -45,7 +45,7 @@ class MyRuleWalker extends Lint.RuleWalker {
     super(sourceFile, options);
 
     this.requiredSuperMethodsByClassname = {};
-    const classArgs = options.ruleArguments[1] || {};
+    const classArgs = options.ruleArguments[0] || {};
     if (typeof classArgs === 'object') {
       for (const className in classArgs) {
         this.requiredSuperMethodsByClassname[className] = {};

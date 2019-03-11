@@ -69,7 +69,7 @@ var MyRuleWalker = /** @class */ (function (_super) {
         _this.inConditional = 0;
         _this.requiredSuperMethodsByClassname = {};
         _this.requiredSuperMethodsByClassname = {};
-        var classArgs = options.ruleArguments[1] || {};
+        var classArgs = options.ruleArguments[0] || {};
         if (typeof classArgs === 'object') {
             for (var className in classArgs) {
                 _this.requiredSuperMethodsByClassname[className] = {};
