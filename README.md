@@ -1,1 +1,1 @@
-# tsline-super-required-calls
+# tslint-super-required-calls
