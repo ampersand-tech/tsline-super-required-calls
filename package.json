@@ -1,8 +1,8 @@
 {
   "name": "tslint-super-required-calls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TSLint rule for ensuring super class functions are called.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:ampersand-tech/tslint-super-required-calls.git",
   "author": "ampersand-tech",
   "license": "MIT",
